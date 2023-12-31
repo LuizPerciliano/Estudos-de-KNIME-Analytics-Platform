@@ -1,0 +1,67 @@
+# Arquivos e diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de ambiente de desenvolvimento
+.vscode/
+.idea/
+*.swp
+*~
+
+# Arquivos de log
+*.log
+
+# Arquivos e diretórios do KNIME
+*.knime
+/knime-workspace/
+#*.table
+*.tabledata
+*.pmml
+*.svg
+*.xml
+*.bin
+*.json
+*.dot
+#*.csv
+#*.xlsx
+#*.xls
+#*.txt
+*.Rhistory
+
+# Arquivos temporários ou de backup
+*_BACKUP_*
+*_BACKUP_*/**
+
+# Arquivos de compilação e pacotes
+node_modules/
+/build/
+/dist/
+/target/
+
+# Arquivos de dependências
+package-lock.json
+yarn.lock
+
+# Arquivos de configuração de projeto
+.project
+.classpath
+.cproject
+.settings/
+
+# Arquivos de saída do compilador
+*.class
+*.pyc
+*.o
+*.so
+
+# Arquivos de pacotes de instalação
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Arquivos de banco de dados local
+*.sqlite
+*.db
